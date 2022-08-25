@@ -18,7 +18,7 @@ setup(
     packages=['effectiverank'],
     install_requires=['numpy>= 1.11.1',
                       'pandas>1.0.0',
-                      'sklearn>1.0.0',
+                      'scikit-learn>1.0.0',
                       'importlib',
                       'yfinance>=0.1.74'                     
                       ],
