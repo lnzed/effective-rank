@@ -25,7 +25,7 @@ The calculation can be made:
 1. for a single point in time using the entire history provided, or
 2. in a rolling fashion to obtain efficient_rank = f(time)
 
-Example usage:
+## Example usage
 
 ```
 import importlib
