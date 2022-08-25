@@ -2,7 +2,7 @@
 
 Calculate the effective rank of a covariance matrix (see https://infoscience.epfl.ch/record/110188/files/RoyV07.pdf)
 
-This main class (EffectiveRank.py) implements the calculation of the effective rank of a covariance matrix. The calculation can be performed either by directly providing a covariance matrix, or by providing a Pandas DataFrame.
+The main class (EffectiveRank.py) implements the calculation of the effective rank of a covariance matrix. The calculation can be performed either by directly providing a covariance matrix, or by providing a Pandas DataFrame.
 In the latter case, each column in the dataframe shall contain a timeseries, for example:
 
 ```
