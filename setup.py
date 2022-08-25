@@ -16,11 +16,11 @@ setup(
     keywords = "rank effective timeseries correlation",
     url = "https://github.com/oznta/effectiverank",
     packages=['effectiverank'],
-    install_requires=['numpy',
-                      'pandas',
-                      'sklearn',
+    install_requires=['numpy>= 1.11.1',
+                      'pandas>1.0.0',
+                      'sklearn>1.0.0',
                       'importlib',
-                      'yfinance'                     
+                      'yfinance>=0.1.74'                     
                       ],
     classifiers=[
         "Development Status :: 3 - Alpha",
