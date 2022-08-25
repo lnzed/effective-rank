@@ -56,5 +56,4 @@ calculator.erank_history
     2022-08-23    3.694735
     2022-08-24    3.692226
     Length: 5433, dtype: float64
-    
 ```
