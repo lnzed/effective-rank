@@ -1,8 +1,8 @@
 # Effective Rank
 
-Calculate the effective rank of a covariance matrix (see https://infoscience.epfl.ch/record/110188/files/RoyV07.pdf)
+Calculate the effective rank of a matrix (see https://infoscience.epfl.ch/record/110188/files/RoyV07.pdf)
 
-The main class (EffectiveRank.py) implements the calculation of the effective rank of a covariance matrix. The calculation can be performed either by directly providing a covariance matrix, or by providing a Pandas DataFrame.
+The main class (EffectiveRank.py) implements the calculation of the effective rank of a matrix. The calculation can be performed either by directly providing a matrix, or by providing a Pandas DataFrame.
 In the latter case, each column in the dataframe shall contain a timeseries, for example:
 
 ```
@@ -20,6 +20,8 @@ Date
 2022-08-23  78.680000  82.169998  34.049999   97.139999  143.600006   
 2022-08-24  78.849998  83.180000  34.230000   97.459999  143.690002
 ```
+
+If a Pandas DataFrame is provided, the covariance matrix will be calculated by using the data in the dataframe.
 
 The calculation can be made:
 1. for a single point in time using the entire history provided, or
