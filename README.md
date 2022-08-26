@@ -30,11 +30,7 @@ The calculation can be made:
 ## Example usage
 
 ```
-import importlib
-import numpy as np
-import pandas as pd
 import yfinance as yf
-
 from effectiverank import EffectiveRankCalculator
 
 data = yf.download(tickers = "XLK,XLV,XLP,XLY,XLI,XLU,XLB,XLE,XLF".split(","), period = 'max')
